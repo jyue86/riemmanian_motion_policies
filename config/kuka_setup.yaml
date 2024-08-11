@@ -1,0 +1,8 @@
+directives:
+
+- add_model:
+    name: robot_arm 
+    file: package://drake_models/iiwa_description/urdf/iiwa14_polytope_collision.urdf
+- add_weld:
+    parent: world
+    child: base 
